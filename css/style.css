@@ -133,6 +133,11 @@
 .razones {
   margin-top: 80px; 
 }
+.razones_elite{
+ font-size: 75px;
+  font-family: Edition;
+  color: #103f60;
+}
 .letraEmirtha{
   font-family: EmithaSC;
   color: #103f60;
