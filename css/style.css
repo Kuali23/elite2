@@ -2,14 +2,17 @@
   font-family: Barker;
   src: url("../fonts/Bakervville_Regular/LibreBaskerville-Regular.ttf");
 }
+
 @font-face {
   font-family: EmithaSW;
   src: url("../fonts/emitha-script-Font/Emitha-Swashes.ttf");
 }
+
 @font-face {
   font-family: EmithaSC;
   src: url("../fonts/emitha-script-Font/Emitha-Script.ttf");
 }
+
 @font-face {
   font-family: Edition;
   src: url("../fonts/Edition-Regular/EDITION_.TTF");
@@ -44,35 +47,24 @@
 .carousel-item img {
   width: 100%;
   height: 800px;
-  /* Altura del carrusel */
   object-fit: cover;
 }
 
 .carousel-caption {
   bottom: 0;
   border-radius: 10px;
-  /* Bordes redondeados */
   padding: 10px;
-  /* Espaciado interno */
   width: 70%;
-  /* Ancho del cuadro de leyenda */
   left: 15%;
-  /* Centrado horizontalmente */
 }
 
 .oval-button {
   border-radius: 20px;
-  /* Bordes ovalados */
   font-size: 20px;
-  /* Tamaño de fuente del botón */
   padding: 15px 25px;
-  /* Espaciado interno del botón */
   position: absolute;
-  /* Posición absoluta para que el botón pueda estar en la esquina inferior derecha */
   bottom: 10px;
-  /* Ajusta la posición vertical del botón */
   right: 10px;
-  /* Ajusta la posición horizontal del botón */
   color: #103f60;
   background-color: #E0BD62;
   border-color: #E0BD62;
@@ -88,18 +80,15 @@
 /* Estilo para la sección inferior */
 .menta-section {
   background-color: #ADE4E1;
-  /* Color menta */
   color: #ffffff;
-  /* Color del texto */
   text-align: center;
-  /* Alineación del texto */
   padding: 50px 0;
-  /* Espaciado interno */
 }
+
 .full-width-text {
-  background-color: #ADE4E1; 
-  text-align: center; 
-  padding: 50px 0; 
+  background-color: #ADE4E1;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .se-parte {
@@ -109,7 +98,7 @@
 }
 
 .elite {
-  font-size:8vw;
+  font-size: 8vw;
   font-family: Edition;
   color: #103f60;
 }
@@ -123,23 +112,157 @@
   width: 100%;
   object-fit: cover;
 }
-.razones{
+
+.razones {
   font-family: Barker;
   color: #103f60;
 }
+
 .section-container {
-  padding: 50px 0; 
+  padding: 50px 0;
 }
+
 .razones {
-  margin-top: 80px; 
+  margin-top: 80px;
 }
-.razones_elite{
- font-size: 75px;
+
+.razones_elite {
+  font-size: 75px;
   font-family: Edition;
   color: #103f60;
 }
-.letraEmirtha{
+
+.letraEmirtha {
   font-family: EmithaSC;
   color: #103f60;
-  font-size:7vw;
+  font-size: 7vw;
+}
+
+.parrafos-carousel {
+  margin-top: 20px;
+}
+
+.parrafos-carousel .carousel-inner {
+  text-align: center;
+}
+
+.parrafos-carousel p {
+  margin: auto;
+}
+
+.carousel-item {
+  color: #103f60;
+  font-size: 25px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.cards-section {
+  background-color: #103f60;
+  padding: 50px 0;
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: #ADE4E1;
+}
+
+.card-title {
+  color: #103f60;
+  font-family: Edition;
+  font-size: 50px;
+}
+
+.card-text {
+  color: #103f60;
+  font-family: Barker;
+  font-size: 15px;
+}
+
+.oval-buttonCards {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px 25px;
+  bottom: 10px;
+  right: 100px;
+  color: #fff;
+  background-color: #103f60;
+  border-color: #103f60;
+}
+
+.oval-buttonCards:hover {
+  color: #103f60;
+  background-color: #E0BD62;
+  border-color: #E0BD62;
+}
+
+.btn-custom-size {
+  width: 195px;
+  height: 65px;
+}
+
+.golden-section {
+  background-color: #E0BD62;
+  color: #ffffff;
+  padding: 50px 0;
+  font-size: 40px;
+}
+
+.golden-section {
+  padding: 20px;
+}
+
+.ftco-counter {
+  position: relative;
+}
+
+.full-width-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+}
+
+.white-section {
+  background-color: white;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cardWHITE {
+  background: #ffffff !important;
+}
+
+footer {
+  background-color: #103f60;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-icons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.footer-icons a {
+  margin-right: 10px;
+  color: white;
 }
