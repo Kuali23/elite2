@@ -15,35 +15,32 @@
 
 @font-face {
   font-family: Edition;
-  src: url("../fonts/Edition-Regular/EDITION_.TTF");
+  src: url("../fonts/edition/EDITION_.TTF");
 }
 
-/* Estilo personalizado para el menú */
 .navbar-custom {
   background-color: #ffffff;
-  /* Fondo blanco */
   padding: 15px 0;
-  /* Espaciado interno */
 }
 
 .navbar-custom .navbar-brand {
   margin-right: 15px;
-  /* Margen derecho para separar el logo del texto */
 }
 
 .navbar-custom .navbar-nav .nav-link {
   font-family: Barker;
   font-size: 20px;
-  color: #103f60;
-  /* Color del texto del enlace */
+  color: #103f60
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
   color: #007bff;
-  /* Color del texto del enlace al pasar el mouse */
 }
 
-/* Estilo para el carrusel */
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #E0BD62;
+}
+
 .carousel-item img {
   width: 100%;
   height: 800px;
@@ -76,13 +73,14 @@
   border-color: #103f60;
 }
 
-
-/* Estilo para la sección inferior */
 .menta-section {
   background-color: #ADE4E1;
   color: #ffffff;
   text-align: center;
   padding: 50px 0;
+}
+.text-center{
+font-family: Barker; 
 }
 
 .full-width-text {
@@ -92,11 +90,14 @@
 }
 
 .se-parte {
-  font-size: 8vw;
+  font-size: 110px;
   font-family: EmithaSC;
   color: #103f60;
 }
 
+.logo{
+  vertical-align: initial !important;
+}
 .elite {
   font-size: 8vw;
   font-family: Edition;
@@ -135,7 +136,7 @@
 .letraEmirtha {
   font-family: EmithaSC;
   color: #103f60;
-  font-size: 7vw;
+  font-size: 96px;
 }
 
 .parrafos-carousel {
@@ -159,6 +160,11 @@
   width: 100%;
   height: auto;
   position: relative;
+  text-align: center;
+  font-family: Edition;
+  font-size: 8vw;
+  color: #fff;
+  bottom: 20px;
 }
 
 .cards-section {
@@ -181,6 +187,7 @@
   color: #103f60;
   font-family: Barker;
   font-size: 15px;
+  text-align: justify;
 }
 
 .oval-buttonCards {
@@ -208,17 +215,122 @@
 .golden-section {
   background-color: #E0BD62;
   color: #ffffff;
-  padding: 50px 0;
-  font-size: 40px;
+
 }
 
-.golden-section {
-  padding: 20px;
+.number {
+  font-family: Barker;
+}
+
+#section-counter {
+  position: relative;
+  z-index: 0;
+}
+
+#section-counter .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #E0BD62;
+  opacity: 0;
+}
+
+.ftco-counter {
+  padding: 7em 0;
+}
+
+@media (max-width: 1199.98px) {
+  .ftco-counter {
+    background-position: center center !important;
+  }
+}
+
+.ftco-counter .icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+.ftco-counter .icon:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  bordeR: 1px solid #E0BD62;
+  z-index: -1;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.ftco-counter .icon span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #E0BD62;
+}
+
+.ftco-counter .text strong.number {
+  font-weight: 500;
+  font-size: 100px;
+  color: #fff;
+}
+
+.ftco-counter .text span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.ftco-counter .text:hover .icon span,
+.ftco-counter .text:focus .icon span {
+  color: #000;
+}
+
+.ftco-counter .text:hover .icon:after,
+.ftco-counter .text:focus .icon:after {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  background: #E0BD62;
+}
+
+@media (max-width: 991.98px) {
+  .ftco-counter .counter-wrap {
+    margin-bottom: 40px !important;
+  }
+}
+
+.ftco-counter .ftco-number {
+  display: block;
+  color: #fff;
+}
+
+.ftco-counter .ftco-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 .ftco-counter {
   position: relative;
 }
+
 
 .full-width-container {
   position: absolute;
@@ -245,6 +357,12 @@
 
 .cardWHITE {
   background: #ffffff !important;
+
+}
+
+.footerh3 {
+  font-family: EmithaSC;
+  font-size: 100px;
 }
 
 footer {
@@ -254,6 +372,15 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  font-size: 24px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #E0BD62;
 }
 
 .footer-icons {
@@ -265,4 +392,197 @@ footer {
 .footer-icons a {
   margin-right: 10px;
   color: white;
+}
+
+hr {
+  background-color: #103f60;
+}
+
+#parrafosCarousel .carousel-inner p {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 991.98px) {
+  footer {
+    font-size: 15px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  .se-parte{
+    font-size: 70px;
+  }
+  .razones{
+    text-align: center;
+  }
+  .letraEmirtha{
+    font-size: 70px;
+    text-align: center;
+  }
+  .hero-image{
+    font-size: 70px;
+  }
+}
+
+/*Estilos para la pagina de nosotros*/
+
+.portada {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portada img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.seccion-fondo {
+  background-color: #103f60;
+  padding: 40px 0; 
+}
+
+.titulo-seccion {
+  font-family: EmithaSC;
+  color: #fff; 
+  font-size: 140px; 
+  margin-bottom: 20px; 
+}
+
+.titulo-seccion span {
+  font-family:Edition ;
+  color: #fff; 
+  font-size: 100px; 
+  margin-bottom: 20px; 
+}
+
+.goldencarrusel{
+  background-color: #E0BD62;
+  font-size: 15px!important; 
+  height: 600px!important;
+}
+
+.somos_carrusel{
+  font-family: EmithaSC;
+  font-size: 70px;
+}
+.img-encima {
+  position: relative;
+  background-image: url('../img/png/somos_nosotros.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px; 
+}
+
+.img-encima .carousel-inner {
+  padding: 20px;
+}
+
+.img-encima {
+  position: relative;
+  z-index: 2;
+  margin-top: -20px;
+  left: 25px; 
+  min-height: 700px;
+}
+
+.img-encima .carousel-inner {
+  padding: 20px; 
+}
+
+#nosotros, #vision, #mision, #valores{
+  font-size: 20px;
+}
+
+.whitte-section {
+  background-color: #fff;
+}
+
+.colorblue{
+  color: #103f60!important;
+}
+
+.menta-section {
+  background-color: #ADE4E1;
+  padding: 20px;
+}
+
+.personal {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  font-family: EmithaSC;
+  font-size: 8vw;
+  color: #103f60;
+  bottom: 20px;
+}
+
+.blue{
+  background-color: #103f60;
+}
+
+.white{
+  color: #fff;
+  text-align: left;
+}
+
+.imgformulario{
+  max-width: 900px;
+  width: 858px;
+}
+
+#nombre, #email, #whatsapp, #tratamiento, #mensaje{
+  background-color: #103f60;
+  text-align: center;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
+.form-control{
+  color: #fff!important;
+}
+
+
+.formu {
+  background-color: #103f60!important;
+  color: #fff!important;
+}
+
+.formu:hover{
+  background-color: #E0BD62!important;
+  color: #103f60!important;
+}
+
+.custom-input-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .img-encima {
+    width: 380px;
+  }
+  #nosotros, #vision, #mision, #valores{
+    font-size: 18px;
+  }
+  .personal{
+    font-size: 70px;
+  }
+  .imgformulario{
+    width: 100%;
+  }
+}
+@media (max-width: 1400px) {
+  
+  #nosotros, #vision, #mision, #valores{
+    font-size: 16px;
+  }
+  .imgformulario{
+    width: 100%;
+  }
 }

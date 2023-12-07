@@ -7,67 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Elite Beauty Clinic</title>
+    <title>Élite Beauty Clinic</title>
 
 </head>
 
 <body>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="img/png/logo_elite.png" alt="Logo" height="60" />
-            </a>
 
-            <!-- Menú de navegación -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Logo con margen a la izquierda -->
+        <a class="navbar-brand ml-5" href="index.html">
+            <img src="img/png/logo_elite.png" alt="Logo" height="60" />
+        </a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#inicio">Inicio | </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#medicina-estetica">Medicina Estética | </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#aparatologia">Aparatología |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#belleza-integral">Belleza Integral | </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#nosotros">Nosotros | </a>
-                    </li>
-                </ul>
-            </div>
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="#medicina-estetica">Medicina Estética</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="#aparatologia">Aparatología</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="#belleza-integral">Belleza Integral</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="nosotros/index.html">Nosotros</a>
+                </li>
+            </ul>
         </div>
+
+        <!-- Botón para mostrar/ocultar menú en dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
     </nav>
+
+
     <!-- Carrusel -->
     <div id="carouselExample" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/png/carrusel1.png" class="d-block w-100" alt="Imagen 1">
                 <div class="carousel-caption">
-                    <button class="btn btn-primary oval-button">¡Agenda Ahora!</button>
+                    <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
+                        class="btn btn-primary oval-button mb-5">¡Agenda Ahora!</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/png/carrusel2.png" class="d-block w-100" alt="Imagen 2">
                 <div class="carousel-caption">
-                    <button class="btn btn-primary oval-button">¡Agenda Ahora!</button>
+                    <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
+                        class="btn btn-primary oval-button mb-5">¡Agenda Ahora!</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/png/carrusel3.png" class="d-block w-100" alt="Imagen 2">
                 <div class="carousel-caption">
-                    <button class="btn btn-primary oval-button">¡Agenda Ahora!</button>
+                    <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
+                        class="btn btn-primary oval-button mb-5">¡Agenda Ahora!</a>
                 </div>
             </div>
             <!-- Agrega más imágenes según sea necesario -->
@@ -83,20 +88,22 @@
     </div>
     <!-- Sección inferior -->
     <section class="menta-section full-width-text">
-        <div class="container">
-            <span class="se-parte">Sé parte de una nueva</span>
-            <span class="elite">ELITE</span>
-        </div>
+       
+            <span class="se-parte ">
+                Sé parte de una nueva 
+            </span>
+            <img src="img/png/logo_azul_transparente.png" alt="Logo" class="img-fluid mt-auto logo" style="max-height: 150px;">
+            
+       
     </section>
     <!-- Sección con imagen y texto -->
     <section>
-        <div class="row">
+        <div class="row ">
             <div class="col-md-6">
                 <img src="img/png/section_presentation.png" alt="Imagen" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <h2 class="razones">5 razones para ser <span class="razones_elite">ELITE</span></h2>
-
+                <h2 class="razones">5 razones para ser  <img src="img/png/logo_azul_transparente.png" alt="Logo" class="img-fluid mt-auto" style="max-height: 70px;"> </h2>
                 <h2 class="letraEmirtha">Experiencia inovidable</h2>
                 <!-- Carrusel de párrafos -->
                 <div id="parrafosCarousel" class="carousel slide parrafos-carousel" data-ride="carousel">
@@ -107,10 +114,14 @@
                                 profesionales altamente capacitados en ÉLITE Beauty Clinic.</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="text-center">Segundo párrafo del carrusel.</p>
+                            <p class="text-center">Obtén acceso a tratamientos de vanguardia respaldados por tecnologia
+                                innovadora y
+                                profesionales altamente capacitados en ÉLITE Beauty Clinic.</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="text-center">Tercer párrafo del carrusel.</p>
+                            <p class="text-center">Obtén acceso a tratamientos de vanguardia respaldados por tecnologia
+                                innovadora y
+                                profesionales altamente capacitados en ÉLITE Beauty Clinic.</p>
                         </div>
                         <!-- Agrega más párrafos según sea necesario -->
                     </div>
@@ -132,8 +143,9 @@
     <!-- Tarjetas de servicios -->
     <section class="container-fluid cards-section">
         <div class="row">
-            <img src="img/svg/Serviciios_imperdibles.svg" alt="Imagen SVG" class="hero-image">
+            <!-- <img src="img/svg/Serviciios_imperdibles.svg" alt="Imagen SVG" class="hero-image"> -->
 
+            <h1 class="hero-image">SERVICIOS IMPERDIBLES</h1>
             <!-- Tarjeta 1 -->
             <div class="col-md-4">
                 <div class="card">
@@ -146,7 +158,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -166,7 +178,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -186,7 +198,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -206,7 +218,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -226,7 +238,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -246,7 +258,7 @@
                                 <h5 class="card-title">BOTOX</h5>
                                 <p class="card-text">Redescubre una piel más suave y juvenil con nuestro tratamiento de
                                     Botox.</p>
-                                <a href="#"
+                                <a href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"
                                     class="btn btn-primary mt-auto btn-sm oval-buttonCards mt-md-auto order-md-last btn-custom-size ml-auto">Agende
                                     ahora</a>
                             </div>
@@ -257,49 +269,48 @@
             <!-- Fin del bloque repetido -->
         </div>
         <!-- Sección inferior -->
-        <section class="golden-section ">
-            <section class="ftco-counter img text-center " id="section-counter" data-stellar-background-ratio="0.5">
-                <div class="overlay"></div>
-
-                <div class="col-md-10">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                            <div class="full-width-container">
-                                <div class="text">
-                                    <strong class="number" data-number="10">0</strong>
-                                    <span style="display: block;">Clientes Elite</span>
+        <section class="ftco-counter img golden-section" id="section-counter" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center">
+                                    <div class="text">
+                                        <strong class="number" data-number="10">0</strong><br>
+                                        <span>Clientes Elite</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                            <div class="full-width-containerr">
-                                <div class="text">
-                                    <strong class="number" data-number="60">0</strong>
-                                    <span style="display: block;">Tratamientos</span>
+                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center">
+                                    <div class="text">
+                                        <strong class="number" data-number="43">0</strong><br>
+                                        <span>Tratamientos</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                            <div class="full-width-container">
-                                <div class="text">
-                                    <strong class="number" data-number="10">0</strong>
-                                    <span style="display: block;">Años de experiencia</span>
+                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center">
+                                    <div class="text">
+                                        <strong class="number" data-number="10">0</strong><br>
+                                        <span>Años de experiencia</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                            <div class="full-width-container">
-                                <div class="text">
-                                    <strong class="number" data-number="300">0</strong>
-                                    <span style="display: block;">Lección realizada</span>
+                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center">
+                                    <div class="text">
+                                        <strong class="number" data-number="300">0</strong><br>
+                                        <span>Lección realizada</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </section>
+            </div>
         </section>
 
     </section>
@@ -345,21 +356,26 @@
             </div>
         </div>
     </section>
-    <footer>
 
-        <div class="text-center col-md-12">
+    <footer class="text-center">
+
+        <div class="text-center ">
+            <input type="text" style="width: 50%;" class="form-control mx-auto" disabled>
             <h3 class="footerh3">Únete a nuestro equipo de trabajo</h3>
-            <p>Teléfono: XXX-XXX-XXXX WhatsApp: XXX-XXX-XXXX</p>
+            <p>Teléfono:<a href="tel://55 4540 4928"> +52 55 4540 4928</a> WhatsApp:<a
+                    href="https://api.whatsapp.com/send?phone=525545404928" target="_blank"> +52 55 4540 4928</a></p>
             <p>Vialidad de la Barranca 6, Col. Ex Hacienda Jesús del Monte, Jesus del Monte, 52764 Naucalpan de Juárez,
-                Méx.</p>
+                Méx.</p><br>
         </div>
-        <div class="footer-icons text-center col-md-12">
-            <a href="#">Bolsa de Trabajo |</a>
-            <a href="#">Derechos</a>
-
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <div>
+            <a href="#" class="text-center">Bolsa de Trabajo |</a>
+            <a href="#" class="text-center">Derechos</a>
+        </div>
+        <hr>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/elitebcpi/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/EliteBCPI" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@elitebcpi" target="_blank"><i class="fab fa-tiktok"></i></a>
         </div>
 
 
