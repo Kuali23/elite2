@@ -41,6 +41,21 @@
   color: #E0BD62;
 }
 
+.dropdown-item {
+  color: #103f60;
+}
+
+.dropdown-item:hover {
+  color: #E0BD62;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #E0BD62;
+}
+
 .carousel-item img {
   width: 100%;
   height: 800px;
@@ -73,14 +88,34 @@
   border-color: #103f60;
 }
 
+.oval-button-menta {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 350px;
+  color: #103f60;
+  background-color: #ADE4E1;
+  border-color: #ADE4E1;
+  margin: 0 auto;
+}
+
+.oval-button-menta:hover {
+  color: #fff;
+  background-color: #103f60;
+  border-color: #103f60;
+}
+
 .menta-section {
   background-color: #ADE4E1;
   color: #ffffff;
   text-align: center;
   padding: 50px 0;
 }
-.text-center{
-font-family: Barker; 
+
+.text-center {
+  font-family: Barker;
 }
 
 .full-width-text {
@@ -95,9 +130,10 @@ font-family: Barker;
   color: #103f60;
 }
 
-.logo{
+.logo {
   vertical-align: initial !important;
 }
+
 .elite {
   font-size: 8vw;
   font-family: Edition;
@@ -403,25 +439,45 @@ hr {
   margin: 0 auto;
 }
 
+.custom-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid .hero-image img {
+  width: 15% !important;
+}
+
 @media (max-width: 991.98px) {
   footer {
     font-size: 15px;
   }
+
   .card-text {
     font-size: 15px;
   }
-  .se-parte{
+
+  .se-parte {
     font-size: 70px;
   }
-  .razones{
+
+  .razones {
     text-align: center;
   }
-  .letraEmirtha{
+
+  .letraEmirtha {
     font-size: 70px;
     text-align: center;
   }
-  .hero-image{
+
+  .hero-image {
     font-size: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-image {
+    font-size: 30px;
   }
 }
 
@@ -438,42 +494,55 @@ hr {
   display: block;
 }
 
+.portada2 {
+
+  overflow: hidden;
+}
+
+.portada2 img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 .seccion-fondo {
   background-color: #103f60;
-  padding: 40px 0; 
+  padding: 40px 0;
 }
 
 .titulo-seccion {
   font-family: EmithaSC;
-  color: #fff; 
-  font-size: 140px; 
-  margin-bottom: 20px; 
+  color: #fff;
+  font-size: 140px;
+  margin-bottom: 20px;
 }
 
 .titulo-seccion span {
-  font-family:Edition ;
-  color: #fff; 
-  font-size: 100px; 
-  margin-bottom: 20px; 
+  font-family: Edition;
+  color: #fff;
+  font-size: 100px;
+  margin-bottom: 20px;
 }
 
-.goldencarrusel{
+.goldencarrusel {
   background-color: #E0BD62;
-  font-size: 15px!important; 
-  height: 600px!important;
+  font-size: 15px !important;
+  height: 600px !important;
 }
 
-.somos_carrusel{
+.somos_carrusel {
   font-family: EmithaSC;
   font-size: 70px;
 }
+
 .img-encima {
   position: relative;
   background-image: url('../img/png/somos_nosotros.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 300px; 
+  min-height: 300px;
 }
 
 .img-encima .carousel-inner {
@@ -484,15 +553,18 @@ hr {
   position: relative;
   z-index: 2;
   margin-top: -20px;
-  left: 25px; 
+  left: 25px;
   min-height: 700px;
 }
 
 .img-encima .carousel-inner {
-  padding: 20px; 
+  padding: 20px;
 }
 
-#nosotros, #vision, #mision, #valores{
+#nosotros,
+#vision,
+#mision,
+#valores {
   font-size: 20px;
 }
 
@@ -500,8 +572,8 @@ hr {
   background-color: #fff;
 }
 
-.colorblue{
-  color: #103f60!important;
+.colorblue {
+  color: #103f60 !important;
 }
 
 .menta-section {
@@ -520,21 +592,29 @@ hr {
   bottom: 20px;
 }
 
-.blue{
+.blue {
   background-color: #103f60;
 }
 
-.white{
+.white {
   color: #fff;
   text-align: left;
 }
 
-.imgformulario{
+.imgformulario {
   max-width: 900px;
   width: 858px;
 }
+.imgformulario2 {
+  max-width: 95%;
+  height: 600px;
+}
 
-#nombre, #email, #whatsapp, #tratamiento, #mensaje{
+#nombre,
+#email,
+#whatsapp,
+#tratamiento,
+#mensaje {
   background-color: #103f60;
   text-align: center;
 }
@@ -543,46 +623,99 @@ hr {
   color: #fff;
 }
 
-.form-control{
-  color: #fff!important;
+.form-control {
+  color: #fff !important;
 }
 
 
 .formu {
-  background-color: #103f60!important;
-  color: #fff!important;
+  background-color: #103f60 !important;
+  color: #fff !important;
 }
 
-.formu:hover{
-  background-color: #E0BD62!important;
-  color: #103f60!important;
-}
-
-.custom-input-container {
-  display: flex;
-  align-items: center;
+.formu:hover {
+  background-color: #E0BD62 !important;
+  color: #103f60 !important;
 }
 
 @media (max-width: 991.98px) {
   .img-encima {
     width: 380px;
   }
-  #nosotros, #vision, #mision, #valores{
+
+  #nosotros,
+  #vision,
+  #mision,
+  #valores {
     font-size: 18px;
   }
-  .personal{
+
+  .personal {
     font-size: 70px;
   }
-  .imgformulario{
+
+  .imgformulario {
     width: 100%;
   }
-}
-@media (max-width: 1400px) {
+
+  .imgformulario2{
+    max-width: 100%;
+
+  }
+
   
-  #nosotros, #vision, #mision, #valores{
+}
+
+@media (max-width: 1400px) {
+
+  #nosotros,
+  #vision,
+  #mision,
+  #valores {
     font-size: 16px;
   }
-  .imgformulario{
+
+  .imgformulario {
     width: 100%;
   }
+
+  .imgformulario2{
+    height: 500px;
+  }
+
+  
 }
+
+@media (max-width: 1050px) {
+  .oval-button {
+    bottom: -15px;
+  }
+
+  .oval-button-menta {
+    position: sticky;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .oval-button {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    bottom: -40px;
+  }
+  .oval-button-menta {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    bottom: -40px;
+    position: sticky;
+  }
+  .imgformulario2{
+    height: 350px;
+  }
+
+}
+
+.servicios {
+  width: 70%;
+}
+
